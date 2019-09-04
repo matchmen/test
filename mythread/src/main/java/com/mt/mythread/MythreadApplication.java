@@ -12,18 +12,17 @@ public class MythreadApplication {
 
         Book book = new Book();
 
-        executorService.execute(()-> {
-            for (;;) {
+        executorService.execute(() -> {
+            for (; ; ) {
                 book.produce();
             }
         });
 
-        executorService.execute(()-> {
-            for (;;) {
+
+        executorService.execute(() -> {
+            for (; ; ) {
                 book.consumer();
             }
-
-
         });
 
 
