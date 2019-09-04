@@ -22,6 +22,8 @@ public class MythreadApplication {
             for (;;) {
                 book.consumer();
             }
+
+
         });
 
 

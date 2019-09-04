@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9303a9df-96b2-4b1f-a503-d1f95953d710" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mythread/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/mythread/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/MythreadApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/MythreadApplication.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/test-springsecurity/target/" />
+    <ignored path="$PROJECT_DIR$/test-oauth/target/" />
+    <ignored path="$PROJECT_DIR$/jdk18stream/target/" />
+    <ignored path="$PROJECT_DIR$/mythread/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/MythreadApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mythread/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>accessDecisionManager</find>
+      <find>Checking match of request</find>
+      <find>AntPathRequestMatcher</find>
+      <find>System.out.println</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>log.error</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo/App.java" />
+        <option value="$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo/UserController.java" />
+        <option value="$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo/surport/MyUserloadServce.java" />
+        <option value="$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo/surport/MyAuthenticationProvider.java" />
+        <option value="$PROJECT_DIR$/test-springsecurity/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo/surport/MyDefaultFilterInvocationSecurityMetadataSource.java" />
+        <option value="$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo/filter/MyUsernamePasswordAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo/surport/MyAuthenticationManager.java" />
+        <option value="$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo/surport/MyUserDetails.java" />
+        <option value="$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo/surport/MyUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo/filter/MyFilterSecurityInterceptor.java" />
+        <option value="$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo/surport/MyAccessDecisionManager.java" />
+        <option value="$PROJECT_DIR$/test-springsecurity/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo/config/MyWebSecurityConfigure.java" />
+        <option value="$PROJECT_DIR$/test-springsecurity/pom.xml" />
+        <option value="$PROJECT_DIR$/test-oauth/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/jdk18stream/pom.xml" />
+        <option value="$PROJECT_DIR$/jdk18stream/src/main/java/com/mt/jdk18stream/User.java" />
+        <option value="$PROJECT_DIR$/jdk18stream/src/main/java/com/mt/jdk18stream/Jdk18streamApplication.java" />
+        <option value="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/Book.java" />
+        <option value="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/MythreadApplication.java" />
+        <option value="$PROJECT_DIR$/mythread/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/Downloads/mvn_repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../soft/apache-maven-3.5.3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="99" />
+    <option name="width" value="1360" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="mythread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="mythread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="mythread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="mythread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="mythread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mythread" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.demo.surport" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo" />
+      <recent name="$PROJECT_DIR$/test-springsecurity/src/main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MythreadApplication">
+    <configuration name="Jdk18streamApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mt.jdk18stream.Jdk18streamApplication" />
+      <module name="jdk18stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mt.jdk18stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MythreadApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mt.mythread.MythreadApplication" />
+      <module name="mythread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mt.mythread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test-springsecurity" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Jdk18streamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jdk18stream" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mt.jdk18stream.Jdk18streamApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MythreadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mythread" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mt.mythread.MythreadApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpringoauthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test-oauth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qm.testspringoauth.TestSpringoauthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MythreadApplication" />
+        <item itemvalue="Application.Jdk18streamApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9303a9df-96b2-4b1f-a503-d1f95953d710" name="Default Changelist" comment="" />
+      <created>1564638799476</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564638799476</updated>
+      <workItem from="1564638804374" duration="6764000" />
+      <workItem from="1564654090033" duration="582000" />
+      <workItem from="1564654948962" duration="19028000" />
+      <workItem from="1564730506289" duration="1993000" />
+      <workItem from="1564738157085" duration="1380000" />
+      <workItem from="1565059730934" duration="153000" />
+      <workItem from="1565257505989" duration="224000" />
+      <workItem from="1565342211628" duration="1232000" />
+      <workItem from="1565836433760" duration="22000" />
+      <workItem from="1567062276348" duration="10392000" />
+      <workItem from="1567480381112" duration="3000" />
+      <workItem from="1567481095888" duration="3205000" />
+      <workItem from="1567499770136" duration="759000" />
+      <workItem from="1567501315751" duration="2240000" />
+      <workItem from="1567563019669" duration="2087000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="50064000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1360" height="877" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24051593" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.533758" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36942676" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4420382" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3299363" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Downloads/mvn_repository/org/springframework/security/spring-security-config/5.1.4.RELEASE/spring-security-config-5.1.4.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configurers/ExpressionUrlAuthorizationConfigurer.java</url>
+          <line>329</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo/surport/MyAccessDecisionManager.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo/surport/MyAccessDecisionManager.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Downloads/mvn_repository/org/springframework/security/spring-security-web/5.1.4.RELEASE/spring-security-web-5.1.4.RELEASE-sources.jar!/org/springframework/security/web/util/matcher/AntPathRequestMatcher.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Downloads/mvn_repository/org/springframework/security/spring-security-web/5.1.4.RELEASE/spring-security-web-5.1.4.RELEASE-sources.jar!/org/springframework/security/web/authentication/switchuser/SwitchUserFilter.java</url>
+          <line>565</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Downloads/mvn_repository/org/springframework/security/spring-security-web/5.1.4.RELEASE/spring-security-web-5.1.4.RELEASE-sources.jar!/org/springframework/security/web/access/intercept/DefaultFilterInvocationSecurityMetadataSource.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>requestMatcher.matches(request)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getAttributes</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>entry.getKey()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>entry.getValue()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/Downloads/mvn_repository/org/springframework/security/spring-security-config/5.1.4.RELEASE/spring-security-config-5.1.4.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configurers/AbstractInterceptUrlConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="70" column="42" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo/controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo/surport/MyDefaultFilterInvocationSecurityMetadataSource.java" />
+    <entry file="jar://$USER_HOME$/Downloads/mvn_repository/org/springframework/security/spring-security-config/5.1.4.RELEASE/spring-security-config-5.1.4.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configurers/ExpressionUrlAuthorizationConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="99" column="36" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
+          <folding>
+            <element signature="e#4391#4392#0" expanded="true" />
+            <element signature="e#4413#4414#0" expanded="true" />
+            <element signature="e#4695#4696#0" expanded="true" />
+            <element signature="e#4734#4735#0" expanded="true" />
+            <element signature="e#14630#14631#0" expanded="true" />
+            <element signature="e#14663#14664#0" expanded="true" />
+            <element signature="e#15693#15694#0" expanded="true" />
+            <element signature="e#15730#15731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/mvn_repository/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE-sources.jar!/org/springframework/security/access/AccessDecisionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/mvn_repository/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE-sources.jar!/org/springframework/security/access/vote/AffirmativeBased.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo/App.java" />
+    <entry file="file://$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo/surport/MyAccessDecisionManager.java" />
+    <entry file="file://$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo/surport/MyUserDetailsService.java" />
+    <entry file="jar://$USER_HOME$/Downloads/mvn_repository/org/springframework/security/spring-security-config/5.1.4.RELEASE/spring-security-config-5.1.4.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/builders/WebSecurity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="175" column="6" selection-start-line="175" selection-start-column="6" selection-end-line="175" selection-end-column="6" />
+          <folding>
+            <element signature="e#6598#6599#0" expanded="true" />
+            <element signature="e#6634#6635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo/filter/MyFilterSecurityInterceptor.java" />
+    <entry file="jar://$USER_HOME$/Downloads/mvn_repository/org/springframework/security/spring-security-web/5.1.4.RELEASE/spring-security-web-5.1.4.RELEASE-sources.jar!/org/springframework/security/web/access/intercept/DefaultFilterInvocationSecurityMetadataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="e#3805#3806#0" expanded="true" />
+            <element signature="e#3865#3866#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/mvn_repository/org/springframework/security/spring-security-web/5.1.4.RELEASE/spring-security-web-5.1.4.RELEASE-sources.jar!/org/springframework/security/web/util/matcher/AntPathRequestMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
+          <folding>
+            <element signature="e#3141#3142#0" expanded="true" />
+            <element signature="e#3179#3180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/mvn_repository/org/springframework/security/spring-security-web/5.1.4.RELEASE/spring-security-web-5.1.4.RELEASE-sources.jar!/org/springframework/security/web/authentication/switchuser/SwitchUserFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7470">
+          <caret line="565" column="19" selection-start-line="565" selection-start-column="19" selection-end-line="565" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-springsecurity/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/test-oauth/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/test-oauth/src/main/java/com/qm/testspringoauth/controller/OAuth2ResourceServerController.java" />
+    <entry file="jar://$USER_HOME$/Downloads/mvn_repository/org/springframework/security/spring-security-web/5.1.4.RELEASE/spring-security-web-5.1.4.RELEASE-sources.jar!/org/springframework/security/web/FilterChainProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2790">
+          <caret line="225" selection-start-line="225" selection-end-line="225" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/mvn_repository/org/springframework/security/spring-security-config/5.1.4.RELEASE/spring-security-config-5.1.4.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/AbstractRequestMatcherRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3420">
+          <caret line="267" column="60" selection-start-line="267" selection-start-column="60" selection-end-line="267" selection-end-column="60" />
+          <folding>
+            <element signature="e#2279#2280#0" expanded="true" />
+            <element signature="e#2308#2309#0" expanded="true" />
+            <element signature="e#4190#4191#0" expanded="true" />
+            <element signature="e#4266#4267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-springsecurity/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/test-springsecurity/src/main/java/com/demo/config/MyWebSecurityConfigure.java" />
+    <entry file="file://$PROJECT_DIR$/test-oauth/src/main/resources/application.yml" />
+    <entry file="jar://$USER_HOME$/Downloads/mvn_repository/org/springframework/security/spring-security-web/5.1.4.RELEASE/spring-security-web-5.1.4.RELEASE-sources.jar!/org/springframework/security/web/DefaultSecurityFilterChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+          <folding>
+            <element signature="e#1852#1853#0" expanded="true" />
+            <element signature="e#1897#1898#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdk18stream/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdk18stream/src/test/java/com/mt/jdk18stream/Jdk18streamApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/jdk18stream/src/main/java/com/mt/jdk18stream/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/stream/ReferencePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="392" column="31" selection-start-line="392" selection-start-column="31" selection-end-line="392" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="1232" column="22" selection-start-line="1232" selection-start-column="22" selection-end-line="1232" selection-end-column="22" />
+          <folding>
+            <element signature="e#47036#47037#0" expanded="true" />
+            <element signature="e#47092#47093#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="359" column="25" selection-start-line="359" selection-start-column="25" selection-end-line="359" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/stream/Collector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-232">
+          <caret line="196" column="17" selection-start-line="196" selection-start-column="17" selection-end-line="196" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/CharSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-303">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/function/BinaryOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="606" column="6" selection-start-line="606" selection-start-column="6" selection-end-line="606" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="463" column="4" selection-start-line="463" selection-start-column="4" selection-end-line="463" selection-end-column="4" />
+          <folding>
+            <element signature="e#33990#33991#0" expanded="true" />
+            <element signature="e#34045#34046#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="329" column="35" selection-start-line="329" selection-start-column="35" selection-end-line="329" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdk18stream/src/main/java/com/mt/jdk18stream/Jdk18streamApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="73" column="73" lean-forward="true" selection-start-line="73" selection-start-column="73" selection-end-line="73" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/mt/thread/ThreadApplication.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="1196" column="11" selection-start-line="1196" selection-start-column="11" selection-end-line="1196" selection-end-column="11" />
+          <folding>
+            <element signature="docComment;class#ThreadPoolExecutor#0" />
+            <element signature="e#12824#15595#0" />
+            <element signature="e#16152#16251#0" />
+            <element signature="e#16256#16321#0" />
+            <element signature="e#16326#16386#0" />
+            <element signature="e#16392#16542#0" />
+            <element signature="e#16808#16882#0" />
+            <element signature="e#17013#17087#0" />
+            <element signature="e#17218#17417#0" />
+            <element signature="e#17538#18090#0" />
+            <element signature="e#18149#18893#0" />
+            <element signature="e#18963#19068#0" />
+            <element signature="e#19141#19202#0" />
+            <element signature="e#19275#19365#0" />
+            <element signature="e#19404#19535#0" />
+            <element signature="e#19578#19852#0" />
+            <element signature="e#19858#20785#0" />
+            <element signature="e#20841#20913#0" />
+            <element signature="e#20974#21214#0" />
+            <element signature="e#21261#21423#0" />
+            <element signature="e#21482#21681#0" />
+            <element signature="e#21726#21834#0" />
+            <element signature="e#21882#21939#0" />
+            <element signature="e#22039#23132#0" />
+            <element signature="e#23243#23310#0" />
+            <element signature="e#23360#24258#0" />
+            <element signature="e#23360#26499#0" />
+            <element signature="e#24375#24512#0" />
+            <element signature="e#24597#24661#0" />
+            <element signature="e#24699#24742#0" />
+            <element signature="e#24779#24809#0" />
+            <element signature="e#24857#25002#0" />
+            <element signature="e#24857#25215#0" />
+            <element signature="e#25225#25275#0" />
+            <element signature="e#25352#25367#0" />
+            <element signature="e#25589#25819#0" />
+            <element signature="e#25674#25783#1" />
+            <element signature="e#25829#25974#0" />
+            <element signature="e#25984#26025#0" />
+            <element signature="e#26034#26085#0" />
+            <element signature="e#26094#26135#0" />
+            <element signature="e#26144#26201#0" />
+            <element signature="e#26211#26493#0" />
+            <element signature="e#26340#26483#1" />
+            <element signature="e#26362#26416#0" />
+            <element signature="e#26505#26556#0" />
+            <element signature="e#26562#26833#0" />
+            <element signature="e#26562#27101#0" />
+            <element signature="e#26903#27095#1" />
+            <element signature="e#27107#27647#0" />
+            <element signature="e#27107#28620#0" />
+            <element signature="e#27697#28614#1" />
+            <element signature="e#27942#28054#1" />
+            <element signature="e#28159#28505#0" />
+            <element signature="e#28222#28491#1" />
+            <element signature="e#28248#28309#0" />
+            <element signature="e#28318#28445#0" />
+            <element signature="e#28514#28564#0" />
+            <element signature="e#28626#28697#0" />
+            <element signature="e#28703#29073#0" />
+            <element signature="e#28703#29549#0" />
+            <element signature="e#29209#29543#1" />
+            <element signature="e#29366#29474#0" />
+            <element signature="e#29483#29533#0" />
+            <element signature="e#29555#29702#0" />
+            <element signature="e#29555#29977#0" />
+            <element signature="e#29832#29920#0" />
+            <element signature="e#29929#29971#0" />
+            <element signature="e#29983#30971#0" />
+            <element signature="e#29983#31621#0" />
+            <element signature="e#31120#31564#0" />
+            <element signature="e#31159#31554#1" />
+            <element signature="e#31253#31484#1" />
+            <element signature="e#31279#31341#0" />
+            <element signature="e#31407#31466#0" />
+            <element signature="e#31573#31615#0" />
+            <element signature="e#31627#31750#0" />
+            <element signature="e#31892#31995#0" />
+            <element signature="e#32001#32146#0" />
+            <element signature="e#32250#32449#0" />
+            <element signature="e#32250#32479#0" />
+            <element signature="e#32485#32672#0" />
+            <element signature="e#32485#32842#0" />
+            <element signature="e#32848#33098#0" />
+            <element signature="e#32848#33495#0" />
+            <element signature="e#33309#33464#1" />
+            <element signature="e#33369#33454#1" />
+            <element signature="e#33501#33578#0" />
+            <element signature="e#33584#34979#0" />
+            <element signature="e#33584#37329#0" />
+            <element signature="e#35078#35907#1" />
+            <element signature="e#35409#35897#1" />
+            <element signature="e#36022#37204#0" />
+            <element signature="e#36129#37194#1" />
+            <element signature="e#36246#36987#0" />
+            <element signature="e#36268#36298#0" />
+            <element signature="e#36574#36969#1" />
+            <element signature="e#36996#37054#0" />
+            <element signature="e#37088#37180#1" />
+            <element signature="e#37213#37293#0" />
+            <element signature="e#37335#37582#0" />
+            <element signature="e#37335#37913#0" />
+            <element signature="e#37719#37856#0" />
+            <element signature="e#37865#37907#0" />
+            <element signature="e#37919#38530#0" />
+            <element signature="e#37919#39406#0" />
+            <element signature="e#38811#38905#0" />
+            <element signature="e#38914#38956#0" />
+            <element signature="e#39049#39400#1" />
+            <element signature="e#39087#39354#1" />
+            <element signature="e#39412#40229#0" />
+            <element signature="e#39412#41411#0" />
+            <element signature="e#40348#41405#1" />
+            <element signature="e#40544#40628#1" />
+            <element signature="e#40905#41034#1" />
+            <element signature="e#41052#41310#0" />
+            <element signature="e#41346#41395#0" />
+            <element signature="e#41417#43544#0" />
+            <element signature="e#41417#45235#0" />
+            <element signature="e#43785#45156#0" />
+            <element signature="e#43850#45107#1" />
+            <element signature="e#43894#43947#0" />
+            <element signature="e#44402#44960#0" />
+            <element signature="e#44518#44577#0" />
+            <element signature="e#44605#44673#0" />
+            <element signature="e#44690#44758#0" />
+            <element signature="e#44779#44858#0" />
+            <element signature="e#44867#44942#0" />
+            <element signature="e#44969#45093#0" />
+            <element signature="e#45165#45229#0" />
+            <element signature="e#45281#46645#0" />
+            <element signature="e#45281#47052#0" />
+            <element signature="e#47058#48406#0" />
+            <element signature="e#47058#48853#0" />
+            <element signature="e#48859#50229#0" />
+            <element signature="e#48859#50693#0" />
+            <element signature="e#50699#52167#0" />
+            <element signature="e#50699#53260#0" />
+            <element signature="e#53266#53923#0" />
+            <element signature="e#53266#55571#0" />
+            <element signature="e#54051#55031#0" />
+            <element signature="e#55104#55208#1" />
+            <element signature="e#55263#55491#1" />
+            <element signature="e#55577#56007#0" />
+            <element signature="e#55577#56396#0" />
+            <element signature="e#56128#56315#0" />
+            <element signature="e#56324#56366#0" />
+            <element signature="e#56402#57156#0" />
+            <element signature="e#56402#57570#0" />
+            <element signature="e#57320#57467#0" />
+            <element signature="e#57476#57518#0" />
+            <element signature="e#57656#58170#0" />
+            <element signature="e#57656#58306#0" />
+            <element signature="e#58410#58963#0" />
+            <element signature="e#58644#58906#0" />
+            <element signature="e#58667#58896#1" />
+            <element signature="e#58915#58957#0" />
+            <element signature="e#58969#59085#0" />
+            <element signature="e#58969#59401#0" />
+            <element signature="e#59215#59250#1" />
+            <element signature="e#59256#59395#1" />
+            <element signature="e#59298#59332#0" />
+            <element signature="e#59407#59626#0" />
+            <element signature="e#59407#59821#0" />
+            <element signature="e#59827#59994#0" />
+            <element signature="e#60082#60284#0" />
+            <element signature="e#60082#60477#0" />
+            <element signature="e#60483#60662#0" />
+            <element signature="e#60766#61249#0" />
+            <element signature="e#60766#62082#0" />
+            <element signature="e#61595#62076#1" />
+            <element signature="e#61609#61667#0" />
+            <element signature="e#61983#62066#1" />
+            <element signature="e#62088#62220#0" />
+            <element signature="e#62296#62628#0" />
+            <element signature="e#62296#62769#0" />
+            <element signature="e#62775#62906#0" />
+            <element signature="e#62775#63111#0" />
+            <element signature="e#63117#63355#0" />
+            <element signature="e#63117#63495#0" />
+            <element signature="e#63501#64043#0" />
+            <element signature="e#64141#64985#0" />
+            <element signature="e#64141#65351#0" />
+            <element signature="e#65227#65345#1" />
+            <element signature="e#65357#65879#0" />
+            <element signature="e#65357#66201#0" />
+            <element signature="e#66207#66364#0" />
+            <element signature="e#66446#67196#0" />
+            <element signature="e#66446#67695#0" />
+            <element signature="e#67701#68021#0" />
+            <element signature="e#68149#68181#0" />
+            <element signature="e#68187#68492#0" />
+            <element signature="e#68578#69302#0" />
+            <element signature="e#68578#69483#0" />
+            <element signature="e#69489#70016#0" />
+            <element signature="e#69489#70859#0" />
+            <element signature="e#70108#70367#0" />
+            <element signature="e#70193#70357#1" />
+            <element signature="e#70420#70794#0" />
+            <element signature="e#70434#70498#0" />
+            <element signature="e#70865#70881#0" />
+            <element signature="e#70887#71000#0" />
+            <element signature="e#70887#71392#0" />
+            <element signature="e#71123#71335#0" />
+            <element signature="e#71137#71181#0" />
+            <element signature="e#71344#71386#0" />
+            <element signature="e#71398#71544#0" />
+            <element signature="e#71398#71879#0" />
+            <element signature="e#71670#71822#0" />
+            <element signature="e#71831#71873#0" />
+            <element signature="e#71885#72040#0" />
+            <element signature="e#71885#72274#0" />
+            <element signature="e#72170#72217#0" />
+            <element signature="e#72226#72268#0" />
+            <element signature="e#72280#72580#0" />
+            <element signature="e#72280#73006#0" />
+            <element signature="e#72705#72949#0" />
+            <element signature="e#72785#72898#1" />
+            <element signature="e#72958#73000#0" />
+            <element signature="e#73012#73366#0" />
+            <element signature="e#73012#73707#0" />
+            <element signature="e#73500#73650#0" />
+            <element signature="e#73659#73701#0" />
+            <element signature="e#73713#73955#0" />
+            <element signature="e#73713#74945#0" />
+            <element signature="e#74134#74420#0" />
+            <element signature="e#74282#74410#1" />
+            <element signature="e#74429#74471#0" />
+            <element signature="e#74951#74972#0" />
+            <element signature="e#74978#75593#0" />
+            <element signature="e#74978#75652#0" />
+            <element signature="e#75658#77691#0" />
+            <element signature="e#75658#77752#0" />
+            <element signature="e#77758#78009#0" />
+            <element signature="e#77758#78045#0" />
+            <element signature="e#78051#78093#0" />
+            <element signature="e#78099#78334#0" />
+            <element signature="e#78099#78989#0" />
+            <element signature="e#78422#78484#0" />
+            <element signature="e#78422#78522#0" />
+            <element signature="e#78532#78825#0" />
+            <element signature="e#78532#78983#0" />
+            <element signature="e#78933#78973#1" />
+            <element signature="e#78995#79099#0" />
+            <element signature="e#78995#79840#0" />
+            <element signature="e#79182#79240#0" />
+            <element signature="e#79182#79273#0" />
+            <element signature="e#79283#79543#0" />
+            <element signature="e#79283#79834#0" />
+            <element signature="e#79846#79942#0" />
+            <element signature="e#79846#80443#0" />
+            <element signature="e#80027#80086#0" />
+            <element signature="e#80027#80121#0" />
+            <element signature="e#80131#80353#0" />
+            <element signature="e#80131#80437#0" />
+            <element signature="e#80449#80658#0" />
+            <element signature="e#80449#81517#0" />
+            <element signature="e#80749#80837#0" />
+            <element signature="e#80749#80878#0" />
+            <element signature="e#80888#81311#0" />
+            <element signature="e#80888#81511#0" />
+            <element signature="e#81419#81501#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3015">
+          <caret line="235" column="18" selection-start-line="235" selection-start-column="18" selection-end-line="235" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11610">
+          <caret line="830" column="26" selection-start-line="830" selection-start-column="26" selection-end-line="830" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="107" column="13" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+          <folding>
+            <element signature="docComment;class#Executors#0" />
+            <element signature="docComment;method#newFixedThreadPool#0;class#Executors#0" />
+            <element signature="method#newFixedThreadPool#0;class#Executors#0" />
+            <element signature="docComment;method#newWorkStealingPool#0;class#Executors#0" />
+            <element signature="method#newWorkStealingPool#0;class#Executors#0" />
+            <element signature="docComment;method#newWorkStealingPool#1;class#Executors#0" />
+            <element signature="method#newWorkStealingPool#1;class#Executors#0" />
+            <element signature="docComment;method#newFixedThreadPool#1;class#Executors#0" />
+            <element signature="method#newFixedThreadPool#1;class#Executors#0" />
+            <element signature="docComment;method#newSingleThreadExecutor#0;class#Executors#0" />
+            <element signature="method#newSingleThreadExecutor#0;class#Executors#0" />
+            <element signature="docComment;method#newSingleThreadExecutor#1;class#Executors#0" />
+            <element signature="method#newSingleThreadExecutor#1;class#Executors#0" />
+            <element signature="docComment;method#newCachedThreadPool#0;class#Executors#0" />
+            <element signature="method#newCachedThreadPool#0;class#Executors#0" />
+            <element signature="docComment;method#newCachedThreadPool#1;class#Executors#0" />
+            <element signature="method#newCachedThreadPool#1;class#Executors#0" />
+            <element signature="docComment;method#newSingleThreadScheduledExecutor#0;class#Executors#0" />
+            <element signature="method#newSingleThreadScheduledExecutor#0;class#Executors#0" />
+            <element signature="docComment;method#newSingleThreadScheduledExecutor#1;class#Executors#0" />
+            <element signature="method#newSingleThreadScheduledExecutor#1;class#Executors#0" />
+            <element signature="docComment;method#newScheduledThreadPool#0;class#Executors#0" />
+            <element signature="method#newScheduledThreadPool#0;class#Executors#0" />
+            <element signature="docComment;method#newScheduledThreadPool#1;class#Executors#0" />
+            <element signature="method#newScheduledThreadPool#1;class#Executors#0" />
+            <element signature="docComment;method#unconfigurableExecutorService#0;class#Executors#0" />
+            <element signature="method#unconfigurableExecutorService#0;class#Executors#0" />
+            <element signature="docComment;method#unconfigurableScheduledExecutorService#0;class#Executors#0" />
+            <element signature="method#unconfigurableScheduledExecutorService#0;class#Executors#0" />
+            <element signature="docComment;method#defaultThreadFactory#0;class#Executors#0" />
+            <element signature="docComment;method#privilegedThreadFactory#0;class#Executors#0" />
+            <element signature="docComment;method#callable#0;class#Executors#0" />
+            <element signature="method#callable#0;class#Executors#0" />
+            <element signature="docComment;method#callable#1;class#Executors#0" />
+            <element signature="method#callable#1;class#Executors#0" />
+            <element signature="docComment;method#callable#2;class#Executors#0" />
+            <element signature="method#callable#2;class#Executors#0" />
+            <element signature="docComment;method#callable#3;class#Executors#0" />
+            <element signature="method#callable#3;class#Executors#0" />
+            <element signature="docComment;method#privilegedCallable#0;class#Executors#0" />
+            <element signature="method#privilegedCallable#0;class#Executors#0" />
+            <element signature="docComment;method#privilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+            <element signature="method#privilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+            <element signature="docComment;class#RunnableAdapter#0;class#Executors#0" />
+            <element signature="class#RunnableAdapter#0;class#Executors#0" />
+            <element signature="method#RunnableAdapter#0;class#RunnableAdapter#0;class#Executors#0" />
+            <element signature="method#call#0;class#RunnableAdapter#0;class#Executors#0" />
+            <element signature="docComment;class#PrivilegedCallable#0;class#Executors#0" />
+            <element signature="class#PrivilegedCallable#0;class#Executors#0" />
+            <element signature="method#PrivilegedCallable#0;class#PrivilegedCallable#0;class#Executors#0" />
+            <element signature="method#call#0;class#PrivilegedCallable#0;class#Executors#0" />
+            <element signature="e#22395#22682#0" />
+            <element signature="e#22719#22774#0" />
+            <element signature="docComment;class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+            <element signature="class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+            <element signature="method#PrivilegedCallableUsingCurrentClassLoader#0;class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+            <element signature="e#23290#23818#1" />
+            <element signature="e#23308#23357#0" />
+            <element signature="e#23590#23648#0" />
+            <element signature="method#call#0;class#PrivilegedCallableUsingCurrentClassLoader#0;class#Executors#0" />
+            <element signature="e#24044#24881#0" />
+            <element signature="e#24393#24476#1" />
+            <element signature="e#24482#24812#1" />
+            <element signature="e#24582#24673#0" />
+            <element signature="e#24682#24782#0" />
+            <element signature="e#24918#24973#0" />
+            <element signature="docComment;class#DefaultThreadFactory#0;class#Executors#0" />
+            <element signature="class#DefaultThreadFactory#0;class#Executors#0" />
+            <element signature="method#DefaultThreadFactory#0;class#DefaultThreadFactory#0;class#Executors#0" />
+            <element signature="method#newThread#0;class#DefaultThreadFactory#0;class#Executors#0" />
+            <element signature="docComment;class#PrivilegedThreadFactory#0;class#Executors#0" />
+            <element signature="class#PrivilegedThreadFactory#0;class#Executors#0" />
+            <element signature="method#PrivilegedThreadFactory#0;class#PrivilegedThreadFactory#0;class#Executors#0" />
+            <element signature="e#26521#26931#1" />
+            <element signature="e#26539#26588#0" />
+            <element signature="method#newThread#0;class#PrivilegedThreadFactory#0;class#Executors#0" />
+            <element signature="docComment;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#DelegatedExecutorService#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#execute#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#shutdown#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#shutdownNow#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#isShutdown#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#isTerminated#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#awaitTermination#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#invokeAll#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#invokeAll#1;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#invokeAny#0;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="method#invokeAny#1;class#DelegatedExecutorService#0;class#Executors#0" />
+            <element signature="class#FinalizableDelegatedExecutorService#0;class#Executors#0" />
+            <element signature="docComment;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
+            <element signature="class#DelegatedScheduledExecutorService#0;class#Executors#0" />
+            <element signature="method#DelegatedScheduledExecutorService#0;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
+            <element signature="method#schedule#0;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
+            <element signature="method#schedule#1;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
+            <element signature="method#scheduleAtFixedRate#0;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
+            <element signature="method#scheduleWithFixedDelay#0;class#DelegatedScheduledExecutorService#0;class#Executors#0" />
+            <element signature="docComment;method#Executors#0;class#Executors#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="286" column="50" selection-start-line="286" selection-start-column="44" selection-end-line="286" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="139" selection-start-line="139" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/MythreadApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mythread/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
