@@ -8,6 +8,21 @@
   <artifactId>test</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>proxy</module>
+      <module>design-pattern</module>
+      <module>socket</module>
+      <module>springbootapp</module>
+    <module>zk</module>
+      <module>rabbitmq</module>
+      <module>sdk</module>
+      <module>https</module>
+      <module>opensslDemo</module>
+      <module>excel</module>
+      <module>redis</module>
+      <module>hash</module>
+    <module>mybatis</module>
+  </modules>
 
   <name>test</name>
   <url>http://www.example.com</url>
@@ -39,5 +54,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+
 
 </project>
