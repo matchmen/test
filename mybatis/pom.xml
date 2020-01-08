@@ -25,6 +25,49 @@
             <artifactId>lombok</artifactId>
             <version>1.18.8</version>
         </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.47</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.yunxin</groupId>
+            <artifactId>mybatis-plus-starter</artifactId>
+            <version>1.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-test</artifactId>
+            <version>2.2.2.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>5.2.0.RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.1.0</version>
+        </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.yunxin</groupId>
+                <artifactId>mybatis-plus-plugin</artifactId>
+                <configuration>
+                    <configPath>${project.basedir}/src/main/resources/mybatis-plus-generator.yml</configPath>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

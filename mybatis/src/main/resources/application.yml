@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/yunxin?characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: 111111
+
+mybatis-plus:
+  global-config:
+    db-config:
+      # 全局主键生成策略：自行输入
+      id-type: input
+        #      mapper.xml文件扫描路径
+  mapper-locations: classpath*:mapper/*.xml
+  typeEnumsPackage: com.mt.mybatis.enums

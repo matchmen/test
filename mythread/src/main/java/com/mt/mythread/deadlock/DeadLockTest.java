@@ -33,22 +33,22 @@ public class DeadLockTest {
 
     public static void main(String[] args) {
 
-        ExecutorService executorService = Executors.newFixedThreadPool(2);
+//        ExecutorService executorService = Executors.newFixedThreadPool(2);
+//
+//        LeftRigthDeadLock leftRigthDeadLock = new LeftRigthDeadLock();
 
-        LeftRigthDeadLock leftRigthDeadLock = new LeftRigthDeadLock();
-
-        executorService.execute(()->{
-            for (int i = 0; i < 100000; i++) {
-                leftRigthDeadLock.leftRight();
-            }
-
-        });
-
-        executorService.execute(()->{
-            for (int i = 0; i < 100000; i++) {
-                leftRigthDeadLock.rightLeft();
-            }
-        });
+//        executorService.execute(()->{
+//            for (int i = 0; i < 100000; i++) {
+//                leftRigthDeadLock.leftRight();
+//            }
+//
+//        });
+//
+//        executorService.execute(()->{
+//            for (int i = 0; i < 100000; i++) {
+//                leftRigthDeadLock.rightLeft();
+//            }
+//        });
 
 
 

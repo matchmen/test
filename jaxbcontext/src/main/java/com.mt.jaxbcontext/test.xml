@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<User>
+    <username>张三</username>
+    <classs>
+        <className>语文</className>
+        <classCode>10001</classCode>
+    </classs>
+    <classs>
+        <className>数学</className>
+        <classCode>10002</classCode>
+    </classs>
+</User>

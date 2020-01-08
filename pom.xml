@@ -13,7 +13,7 @@
       <module>design-pattern</module>
       <module>socket</module>
       <module>springbootapp</module>
-    <module>zk</module>
+      <module>zk</module>
       <module>rabbitmq</module>
       <module>sdk</module>
       <module>https</module>
@@ -21,7 +21,8 @@
       <module>excel</module>
       <module>redis</module>
       <module>hash</module>
-    <module>mybatis</module>
+      <module>mybatis</module>
+      <module>jaxbcontext</module>
   </modules>
 
   <name>test</name>

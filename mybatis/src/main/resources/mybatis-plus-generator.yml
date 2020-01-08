@@ -1,0 +1,37 @@
+mp:
+  #是否覆盖原文件
+  override: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&useSSL=false&characterEncoding=utf8
+    driverName: com.mysql.jdbc.Driver
+    username: root
+    password: 111111
+
+  entity:
+    package: com.mt.mybatis.entity
+#    实体名的前缀和后缀3
+    prefix:
+    suffix:
+
+  mapper:
+    #   是否生成mapper和xml 注意:第一次生成Mapper和xml之后记得再改回false
+    #   【【【怕误覆盖原文件建议修改前后缀，然后拷贝需要的代码】】】
+    generate: true
+    package: com.mt.mybatis.mapper
+    xmlGenerate: true
+    xmlPath: resources/mapper
+    #    对应的前后缀
+    prefix:
+    suffix:
+
+  #表名，多个用逗号分隔
+  table:
+   names: tb_user
+   # 表名前缀(用于生成entity时,有则去除)
+   prefix: tb_
+
+  # 主键策略: MP支持6种策略(若表id已定义为自增，则该配置无效)
+  # auto自增, input自行输入
+  # worker雪花ID, worker_str字符串型雪花ID
+  # uuid, none或不填即跟随全局(默认雪花ID)
+  idType: input
