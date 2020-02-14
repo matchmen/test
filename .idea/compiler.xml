@@ -9,14 +9,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="jaxbcontext" />
         <module name="springbootapp" />
-        <module name="mybatis" />
         <module name="opensslDemo" />
         <module name="redis" />
         <module name="socket" />
         <module name="rabbitmq" />
         <module name="sdk" />
+        <module name="netty" />
         <module name="https" />
         <module name="hash" />
+        <module name="mybatis" />
         <module name="proxy" />
         <module name="mythread" />
         <module name="jdk18stream" />

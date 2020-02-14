@@ -23,6 +23,7 @@
       <module>hash</module>
       <module>mybatis</module>
       <module>jaxbcontext</module>
+      <module>netty</module>
   </modules>
 
   <name>test</name>

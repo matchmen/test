@@ -1,6 +1,7 @@
 package com.mt.excel;
 
 import com.alibaba.excel.annotation.ExcelProperty;
+import lombok.Data;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -10,11 +11,12 @@ import java.util.Date;
  * author: liqm
  * 2019-12-13
  */
+@Data
 public class User {
 
     @ExcelProperty("姓名")
     private String name;
-    @ExcelProperty("出生年月日")
+    @ExcelProperty(value = "出生年月日", converter = LocalDateConverter.class)
     private LocalDate birthday;
     @ExcelProperty("年龄")
     private int age;
@@ -58,5 +60,9 @@ public class User {
         this.birthday = birthday;
         this.age = age;
         this.salary = salary;
+    }
+
+    public User(){
+
     }
 }
