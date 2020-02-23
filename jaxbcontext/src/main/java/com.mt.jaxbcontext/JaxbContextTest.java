@@ -16,8 +16,18 @@ import java.util.List;
  */
 public class JaxbContextTest {
 
+
+
+
     public static void main(String[] args) throws JAXBException {
 
+        //JaxbContextTest.class.equals()
+
+
+    }
+
+
+    public static void pr() throws JAXBException {
         Student student = new Student();
 
         student.setUsername("张三");
@@ -38,9 +48,6 @@ public class JaxbContextTest {
         System.out.println("student:" + student);
         System.out.println("object to xml:" + objToXml(student));
         System.out.println("xml to object:" + xmlToObj( objToXml(student),Student.class));
-
-
-
 
     }
 
