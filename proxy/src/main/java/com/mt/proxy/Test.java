@@ -13,6 +13,7 @@ public class Test {
         Demo demo = (Demo) new DemoDynamicProxy().bind(new DemoImpl());
 
         demo.print();
+
     }
 
 

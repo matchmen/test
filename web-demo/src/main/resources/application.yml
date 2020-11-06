@@ -1,0 +1,28 @@
+web:
+  config:
+    username: root
+    # List两种配置方法：逗号分隔或者 -
+    # addresses: cd,bj,sh
+    addresses:
+      - cd
+      - bj
+      - sh
+    # 对象配置
+    defaultMail:
+      username: gq_lqm@163.com
+    # Map 配置
+    accountMap:
+      alipay:
+        account: 1142229061@qq.com
+        amount: 10000
+      wecat:
+        account: a2640180108
+        amount: 10000
+    # 对象List
+    mails:
+      - username: gq_lqm@163.com
+      - username: 1142229061@163.com
+
+user:
+  username: 张三
+  age: 20

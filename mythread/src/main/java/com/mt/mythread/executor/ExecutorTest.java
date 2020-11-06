@@ -48,13 +48,15 @@ public class ExecutorTest {
 
         CompletionService completionService = new ExecutorCompletionService(executor);
 
-        completionService.submit(()->{
+        Future<String> submit = completionService.submit(() -> {
             try {
                 return Thread.currentThread().getName() + ":completionService task1";
-            }finally {
+            } finally {
                 countDownLatch.countDown();
             }
         });
+
+        String s = submit.get();
 
         completionService.submit(()->{
             try {

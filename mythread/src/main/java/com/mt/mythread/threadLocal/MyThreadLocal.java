@@ -21,6 +21,7 @@ public class MyThreadLocal extends Thread{
     public void run() {
 
         threadLocal.set(vaule);
+        threadLocal.remove();
 
         System.out.println(threadLocal.get());
 
