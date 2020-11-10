@@ -17,7 +17,7 @@ public class BubblingSort {
     public static void main(String[] args) {
         int[] num = new int[]{1,23,35,67,2,3,8,0};
         sort1(num);
-        sort2(num);
+        //sort2(num);
     }
 
     public static void sort1(int[]num) {
@@ -30,8 +30,10 @@ public class BubblingSort {
                     num[j + 1] = currNum;
                 }
             }
+            Arrays.stream(num).forEach(a->{System.out.print(a);
+                System.out.print(" ");});
+            System.out.println();
         }
-        System.out.println("方法二");
         Arrays.stream(num).forEach(System.out::println);
     }
 
