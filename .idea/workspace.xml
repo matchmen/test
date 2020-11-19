@@ -64,37 +64,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9303a9df-96b2-4b1f-a503-d1f95953d710" name="Default Changelist" comment="排序算法">
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com.lqm.algorithm/ArrayPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com.lqm.algorithm/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com.lqm.algorithm/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basics/src/main/java/com.lqm.basics/BaseClazz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basics/src/main/java/com.lqm.basics/StringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java/com/lqm/collection/listP/ListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java/com/lqm/collection/queue/QueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java/com/lqm/collection/setp/SetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/atomic/AtomicObj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/lock/LockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/syn/SynTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/volatiles/VolatileDemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/lqm/demo/aop/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/lqm/demo/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/lqm/demo/exception/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/lqm/demo/response/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="9303a9df-96b2-4b1f-a503-d1f95953d710" name="Default Changelist" comment="提交">
+      <change afterPath="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/lock/readme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com.lqm.basics/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/collection/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/atomic/AtomicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/atomic/AtomicTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/volatiles/VolatileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/volatiles/VolatileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/java/com/lqm/demo/config/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/java/com/lqm/demo/config/Mail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/java/com/lqm/demo/config/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/java/com/lqm/demo/config/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/java/com/lqm/demo/config/UserConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/java/com/lqm/demo/config/WebConfig.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,7 +367,7 @@
       <workItem from="1605489155901" duration="11911000" />
       <workItem from="1605576137469" duration="12732000" />
       <workItem from="1605665646641" duration="9190000" />
-      <workItem from="1605707146896" duration="4181000" />
+      <workItem from="1605707146896" duration="16147000" />
     </task>
     <task id="LOCAL-00001" summary="xml java对象互转">
       <created>1578496446773</created>
@@ -418,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604651497230</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="提交">
+      <created>1605749296079</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605749296079</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +428,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="xml java对象互转" />
     <MESSAGE value="排序算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="排序算法" />
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="810" y="350" key="#Notifications" timestamp="1604651526180">
@@ -528,10 +508,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604998884353" />
-    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1604651513162">
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1605749330080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604651513162" />
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605749330080" />
     <state x="293" y="183" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1598340732764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -544,10 +524,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="840" height="1034" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598347713395" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1605708612138">
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1605793411770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605708612138" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605793411770" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

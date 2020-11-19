@@ -1,0 +1,17 @@
+1.简介
+    ReentrantLock是一个可重入的具有与synchronized相同行为且更强大的互斥锁。
+2.ReentrantLock原理
+2.1 实现了Lock接口
+    实现了Lock所有的方法，比如常用lock/tryLock，unLock等
+2.2 内部类抽象类Sync
+    继承了AbstractQueuedSynchronizer同步器（简称AQS）,源码是这样定义该类：基于Sync实现对锁的控制，也就是说ReentrantLock
+锁的功能是通过Sync间接实现的，而锁竞争功能主要由AQS提供。
+    AbstractQueuedSynchronizer通过先入先出（FIFO）等待队列实现了阻塞锁和同步器，未抢到锁的线程会添加到等待队列队尾，并自身调
+用interrupt方法进行自我中断；使用int类型的state变量表示锁的状态，锁的竞争也就是通过CAS对state的竞争，state为0是表示没有线程持
+有该锁，持有该锁时state大于1，遇到重入锁（持有该锁线程再次获取锁）时state继续加1即可，释放时此次减1。
+2.3 公平锁FairSync和非公平锁UnfairSync
+    内部类公平锁FairSync、非公平锁UnfairSync均继承Sync，二者区别主要体现在对锁的竞争上：公平锁获取锁时会先判断等待队列是否存有
+等待线程，如果没有则使用CAS竞争锁，如果有则加到等待队列队尾；而非公平锁获取锁时无需校验等待队列是否有等待线程，直接使用CAS竞争锁，
+成功则执行，失败则加到等待队列队尾。ReentrantLock默认为非公平锁，可以通过构造方法ReentrantLock(boolean fair)设置锁类型。
+
+
