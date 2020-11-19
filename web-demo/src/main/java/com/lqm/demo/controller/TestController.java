@@ -3,10 +3,7 @@ package com.lqm.demo.controller;
 import com.lqm.demo.response.Result;
 import org.hibernate.validator.constraints.Length;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.validation.constraints.*;
 
@@ -20,7 +17,8 @@ public class TestController {
 
     /**
      * 1.非对象类型参数校验
-     * 需要在Controller方法上添加注解Validated,然后在接口方法上加javax.validation包下的注解
+     * 1）需要在Controller方法上添加注解Validated,然后在接口方法上加javax.validation包下的注解
+     * 2）Long、Integer不能使用@NotBlank注解，否则报错：HV000030: No validator could be found for constraint 'javax.validation.constraints.NotBlank' validating type 'java.lang.Integer 需要使用@NotNull;
      */
 
     /**
@@ -35,11 +33,17 @@ public class TestController {
     }
 
     /**
-     * 1.2 问号地址拼接类型,如：path?id=1
-     * 1.2.1 Long、Integer不能使用@NotBlank注解，否则报错：HV000030: No validator could be found for constraint 'javax.validation.constraints.NotBlank' validating type 'java.lang.Integer'
-     *       需要使用@NotNull;
+     * 1.2 注解@RequestParam的使用
      */
-    @GetMapping("splitPath")
+
+    /**
+     * 1.2.1 @RequestParam + GET，接受参数形势：
+     * 1) URL拼接，如  http://localhost:8080/splitPath?id=1&code=1222&age=
+     * 2) Body传输，
+     *    Content-Type：multipart/form-data;
+     *
+     */
+    @GetMapping("requestParamGet")
     public Result splitPath(@NotNull(message = "id不能为空") @RequestParam("id") Integer id,
                             @NotBlank(message = "code不能为空") @Length(min = 2,max = 5,message = "长度必须在2~5之间") @RequestParam("code") String code,
                             @NotNull(message = "年龄不能为空") @Max(value = 120, message = "age不能大于120") @Min(value = 1,message = "age不能小于0") @RequestParam(name = "age",defaultValue = "1") int age) {
@@ -48,7 +52,26 @@ public class TestController {
     }
 
     /**
-     * 2.
+     * 1.2.2 @RequestParam + POST，接受参数形势：
+     * 1) URL拼接，如  http://localhost:8080/splitPath?id=1&code=1222&age=
+     * 2) Body传输，
+     *    1)Content-Type：multipart/form-data; 参数形势：Content-Disposition: form-data; name="id" 2
+     *    2)Content-Type：application/x-www-form-urlencoded;  参数形势：id=2&code=22&age=1
+     *    3)
+     *
      */
+    @PostMapping("requestParamPost")
+    public Result splitPathForRequestBody(@NotNull(message = "id不能为空") @RequestParam("id") Integer id,
+                            @NotBlank(message = "code不能为空") @Length(min = 2,max = 5,message = "长度必须在2~5之间") @RequestParam("code") String code,
+                            @NotNull(message = "年龄不能为空") @Max(value = 120, message = "age不能大于120") @Min(value = 1,message = "age不能小于0") @RequestParam(name = "age",defaultValue = "1") int age) {
+
+        return Result.success();
+    }
+
+    /**
+     * 2.RequestBody的使用
+     */
+
+
 
 }

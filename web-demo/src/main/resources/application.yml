@@ -26,3 +26,7 @@ web:
 user:
   username: 张三
   age: 20
+
+logging:
+  level:
+    root: debug
