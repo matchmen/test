@@ -16,6 +16,7 @@
         <module name="rabbitmq" />
         <module name="sdk" />
         <module name="collection" />
+        <module name="algorithm" />
         <module name="web-demo" />
         <module name="https" />
         <module name="hash" />

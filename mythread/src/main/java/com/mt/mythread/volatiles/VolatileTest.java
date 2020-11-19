@@ -1,58 +1,28 @@
 package com.mt.mythread.volatiles;
 
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * author: liqm
- * 2019-10-21
+ * @Author Liqm
+ * @Date 2020/11/12 0012
  */
 public class VolatileTest {
 
-    private static volatile int MY_INT = 0;
+    private static volatile int a;
+    public static void main(String[] args) throws InterruptedException {
 
-    /**
-     * 主线程启动2个测试子线程
-     *
-     * @param args null
-     */
-    public static void main(String[] args) {
-        new ChangeListener().start();
-        new ChangeMaker().start();
-    }
-
-    /**
-     * 此线程负责对MY_INT值改变的侦听，如果有改变就会打印出来
-     */
-    static class ChangeListener extends Thread {
-        @Override
-        public void run() {
-            int local_value = MY_INT;
-            while (local_value < 5) {
-
-                if (local_value != MY_INT) {
-                    System.out.println("Got Change for MY_INT : " + MY_INT);
-                    local_value = MY_INT;
+        CountDownLatch countDownLatch = new CountDownLatch(10);
+        for (int i = 0; i < 10; i++) {
+            Thread thread = new Thread(()->{
+                for (int j = 0; j < 1000; j++) {
+                    a++;
                 }
-            }
+                countDownLatch.countDown();
+            });
+            thread.start();
         }
+        countDownLatch.await();
+        System.out.println(a);
     }
-
-    /**
-     * 此线程负责改变MY_INT的值
-     */
-    static class ChangeMaker extends Thread {
-        @Override
-        public void run() {
-            int local_value = MY_INT;
-            while (MY_INT < 5) {
-                System.out.println("Incrementing MY_INT to " + (local_value + 1));
-                MY_INT = ++local_value;
-                try {
-                    Thread.sleep(500);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
-    }
-
 }
