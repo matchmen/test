@@ -3,6 +3,9 @@ package com.lqm.demo.aop;
 import com.lqm.demo.response.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.MissingPathVariableException;
 import org.springframework.web.bind.MissingServletRequestParameterException;
 import org.springframework.web.bind.ServletRequestBindingException;
@@ -13,6 +16,7 @@ import org.springframework.web.method.annotation.MethodArgumentTypeMismatchExcep
 
 import javax.validation.*;
 import java.util.Iterator;
+import java.util.List;
 
 /**
  * @Author Liqm
@@ -88,8 +92,14 @@ public class GlobalExceptionHandler {
         return Result.fail("非法参数:" + e.getName());
     }
 
-
-
-
-
+    @ExceptionHandler(MethodArgumentNotValidException.class)
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    public Result methodArgumentTypeMismatchException(MethodArgumentNotValidException e) {
+        BindingResult result = e.getBindingResult();
+        List<FieldError> fieldErrors = result.getFieldErrors();
+        StringBuilder sb = new StringBuilder("参数不正确:");
+        fieldErrors.forEach(fieldError -> sb.append("")
+                .append(fieldError.getDefaultMessage()).append(", "));
+        return Result.fail(sb.toString());
+    }
 }

@@ -1,16 +1,20 @@
 package com.lqm.demo.controller;
 
+import com.lqm.demo.request.TestRequest;
 import com.lqm.demo.response.Result;
+import lombok.extern.slf4j.Slf4j;
 import org.hibernate.validator.constraints.Length;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import javax.validation.constraints.*;
 
 /**
  * @Author Liqm
  * @Date 2020/11/17 0017
  */
+@Slf4j
 @Validated
 @RestController
 public class TestController {
@@ -72,6 +76,17 @@ public class TestController {
      * 2.RequestBody的使用
      */
 
+    /**
+     * 2.1 @Validated+其他验证注解
+     */
+
+    @PostMapping("objectRequestBody")
+    public Result objectRequestBody(@RequestBody @Validated TestRequest request) {
+
+        log.info("request:{}", request);
+
+        return Result.success();
+    }
 
 
 }

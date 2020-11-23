@@ -10,30 +10,12 @@ public class ThreadTest {
 
     public static void main(String[] args) throws InterruptedException {
 
-        YieldThreadTest yieldThreadTest = new YieldThreadTest();
-
-        yieldThreadTest.start();
-
-        Thread thread = new Thread();
-
-    }
-
-    private synchronized static void add() {
-        Long st = System.currentTimeMillis();
-        for (int i = 0; i < 100000; i++) {
-            Thread.yield();
-            count++;
-        }
-
-        System.out.println("耗时:" + (System.currentTimeMillis() - st));
-    }
-
-    static class YieldThreadTest extends Thread{
-
-        @Override
-        public void run() {
-            add();
-        }
+        Thread thread = new Thread(()->{
+            System.out.println("进入。。。。。。");
+            Thread.currentThread().interrupt();
+            System.out.println("中断结束..");
+        });
+        thread.start();
     }
 
 }
