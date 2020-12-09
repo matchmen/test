@@ -1,3 +1,4 @@
+》》ReentrantLock
 1.简介
     ReentrantLock是一个可重入的具有与synchronized相同行为且更强大的互斥锁。
 2.ReentrantLock原理
@@ -14,4 +15,5 @@
 等待线程，如果没有则使用CAS竞争锁，如果有则加到等待队列队尾；而非公平锁获取锁时无需校验等待队列是否有等待线程，直接使用CAS竞争锁，
 成功则执行，失败则加到等待队列队尾。ReentrantLock默认为非公平锁，可以通过构造方法ReentrantLock(boolean fair)设置锁类型。
 
-
+》》ReentrantReadWriteLock
+1.

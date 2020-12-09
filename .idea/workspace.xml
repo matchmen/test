@@ -65,13 +65,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9303a9df-96b2-4b1f-a503-d1f95953d710" name="Default Changelist" comment="提交">
-      <change afterPath="$PROJECT_DIR$/basics/src/main/java/com.lqm.basics/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/lqm/demo/request/TestRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/lqm/demo/request/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OPPO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/executor/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/lock/ReadWriteLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/threadLocal/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/lqm/demo/controller/ExcelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/lqm/demo/response/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/lqm/demo/task/TestTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/lqm/demo/utils/DefaultExcelExportStyler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/lqm/demo/utils/ExcelUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/lqm/demo/utils/ExportExcelCallback.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/thread/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/thread/ThreadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/java/com/lqm/demo/aop/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/lqm/demo/aop/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-demo/src/main/java/com/lqm/demo/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-demo/src/main/java/com/lqm/demo/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com.lqm.basics/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com.lqm.basics/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/mt/designpattern/adapter/AdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/mt/designpattern/adapter/AdapterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/com/mt/designpattern/singleton/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/mt/designpattern/singleton/SingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/executor/ExecutorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/executor/ExecutorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/lock/readme" beforeDir="false" afterPath="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/lock/readme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/threadLocal/MyThreadLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/mythread/src/main/java/com/mt/mythread/threadLocal/MyThreadLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web-demo/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +143,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/mybatis/src/main/java/com/mt/mybatis" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../architect-awesome" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web-demo/src/main/java/com/lqm/demo/utils" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -142,28 +153,29 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/netty/src/main/java" />
-      <recent name="$PROJECT_DIR$/mybatis/src" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.mt.mybatis.entity" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\code\test\web-demo\src\main\java\com\lqm\demo\utils" />
+      <recent name="D:\work\code\test\web-demo\src\main\resources" />
+      <recent name="$PROJECT_DIR$/redis/src" />
+      <recent name="$PROJECT_DIR$/mybatis/src/test/resources" />
+      <recent name="$PROJECT_DIR$/mybatis/src/main" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lqm.demo.utils" />
       <recent name="com.lqm.demo.response" />
       <recent name="com.mt.designpattern.proxy" />
       <recent name="com.mt.designpattern.observer" />
       <recent name="com.demo.surport" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\work\code\test\web-demo\src\main\resources" />
-      <recent name="$PROJECT_DIR$/redis/src" />
-      <recent name="$PROJECT_DIR$/mybatis/src/test/resources" />
-      <recent name="$PROJECT_DIR$/mybatis/src/main" />
-      <recent name="$PROJECT_DIR$/mybatis/src/main/resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/netty/src/main/java" />
+      <recent name="$PROJECT_DIR$/mybatis/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.WebDemoApplication">
+  <component name="RunManager" selected="Application.SingletonTest">
     <configuration name="BaseClazz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lqm.basics.BaseClazz" />
       <module name="basics" />
@@ -177,12 +189,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mt.mythread.lock.LockTest" />
+    <configuration name="ExecutorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mt.mythread.executor.ExecutorTest" />
       <module name="mythread" />
+      <option name="VM_PARAMETERS" value="-Xms32m -Xmx32m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mt.mythread.lock.*" />
+          <option name="PATTERN" value="com.mt.mythread.executor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,12 +203,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lqm.basics.StringTest" />
-      <module name="basics" />
+    <configuration name="SingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mt.designpattern.singleton.SingletonTest" />
+      <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lqm.basics.*" />
+          <option name="PATTERN" value="com.mt.designpattern.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,13 +277,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.BaseClazz" />
+      <item itemvalue="Application.ExecutorTest" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.ThreadTest" />
+      <item itemvalue="Spring Boot.App" />
+      <item itemvalue="Spring Boot.Jdk18streamApplication" />
+      <item itemvalue="Spring Boot.MythreadApplication" />
+      <item itemvalue="Spring Boot.TestSpringoauthApplication" />
+      <item itemvalue="Spring Boot.WebDemoApplication" />
+      <item itemvalue="Application.SingletonTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadTest" />
+        <item itemvalue="Application.SingletonTest" />
+        <item itemvalue="Application.ExecutorTest" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ThreadTest" />
         <item itemvalue="Application.BaseClazz" />
-        <item itemvalue="Application.StringTest" />
-        <item itemvalue="Application.LockTest" />
       </list>
     </recent_temporary>
   </component>
@@ -374,7 +399,13 @@
       <workItem from="1605665646641" duration="9190000" />
       <workItem from="1605707146896" duration="20911000" />
       <workItem from="1605836248649" duration="7264000" />
-      <workItem from="1606139194708" duration="4152000" />
+      <workItem from="1606139194708" duration="54878000" />
+      <workItem from="1606695645939" duration="19342000" />
+      <workItem from="1606729300589" duration="2011000" />
+      <workItem from="1606785743659" duration="8850000" />
+      <workItem from="1606829739138" duration="276000" />
+      <workItem from="1606830510732" duration="6603000" />
+      <workItem from="1606920898697" duration="19750000" />
     </task>
     <task id="LOCAL-00001" summary="xml java对象互转">
       <created>1578496446773</created>
@@ -418,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605799221857</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="提交">
+      <created>1606143414403</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606143414403</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,6 +525,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="810" y="350" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1604651526180" />
+    <state x="410" y="165" width="1106" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606702419837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="410" y="165" width="1106" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606702419837" />
+    <state x="619" y="299" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606375613358">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="619" y="299" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606375613358" />
     <state x="718" y="155" key="#com.intellij.ide.util.MemberChooser" timestamp="1605192502772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -507,62 +553,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="772" y="395" key="Gitee.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604647074946" />
-    <state width="1867" height="391" key="GridCell.Tab.0.bottom" timestamp="1606143171623">
+    <state width="1867" height="210" key="GridCell.Tab.0.bottom" timestamp="1607476889639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="391" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606143171623" />
-    <state width="1867" height="391" key="GridCell.Tab.0.center" timestamp="1606143171623">
+    <state width="1867" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607476889639" />
+    <state width="1867" height="210" key="GridCell.Tab.0.center" timestamp="1607476889638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="391" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606143171623" />
-    <state width="1867" height="391" key="GridCell.Tab.0.left" timestamp="1606143171623">
+    <state width="1867" height="210" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607476889638" />
+    <state width="1867" height="210" key="GridCell.Tab.0.left" timestamp="1607476889638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="391" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606143171623" />
-    <state width="1867" height="391" key="GridCell.Tab.0.right" timestamp="1606143171623">
+    <state width="1867" height="210" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607476889638" />
+    <state width="1867" height="210" key="GridCell.Tab.0.right" timestamp="1607476889638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="391" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606143171623" />
-    <state width="1867" height="391" key="GridCell.Tab.1.bottom" timestamp="1606143171373">
+    <state width="1867" height="210" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607476889638" />
+    <state width="1867" height="328" key="GridCell.Tab.1.bottom" timestamp="1607418347303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="391" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606143171373" />
-    <state width="1867" height="391" key="GridCell.Tab.1.center" timestamp="1606143171373">
+    <state width="1867" height="328" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607418347303" />
+    <state width="1867" height="328" key="GridCell.Tab.1.center" timestamp="1607418347303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="391" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606143171373" />
-    <state width="1867" height="391" key="GridCell.Tab.1.left" timestamp="1606143171373">
+    <state width="1867" height="328" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607418347303" />
+    <state width="1867" height="328" key="GridCell.Tab.1.left" timestamp="1607418347302">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="391" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606143171373" />
-    <state width="1867" height="391" key="GridCell.Tab.1.right" timestamp="1606143171373">
+    <state width="1867" height="328" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607418347302" />
+    <state width="1867" height="328" key="GridCell.Tab.1.right" timestamp="1607418347303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="391" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606143171373" />
-    <state width="1867" height="391" key="GridCell.Tab.2.bottom" timestamp="1606143171373">
+    <state width="1867" height="328" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607418347303" />
+    <state width="1867" height="289" key="GridCell.Tab.2.bottom" timestamp="1606402914218">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="391" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606143171373" />
-    <state width="1867" height="391" key="GridCell.Tab.2.center" timestamp="1606143171373">
+    <state width="1867" height="289" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606402914218" />
+    <state width="1867" height="289" key="GridCell.Tab.2.center" timestamp="1606402914218">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="391" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606143171373" />
-    <state width="1867" height="391" key="GridCell.Tab.2.left" timestamp="1606143171373">
+    <state width="1867" height="289" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606402914218" />
+    <state width="1867" height="289" key="GridCell.Tab.2.left" timestamp="1606402914218">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="391" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606143171373" />
-    <state width="1867" height="391" key="GridCell.Tab.2.right" timestamp="1606143171373">
+    <state width="1867" height="289" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606402914218" />
+    <state width="1867" height="289" key="GridCell.Tab.2.right" timestamp="1606402914218">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="391" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606143171373" />
+    <state width="1867" height="289" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606402914218" />
     <state x="440" y="0" key="SettingsEditor" timestamp="1604998884353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604998884353" />
-    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1605799228988">
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1606143417373">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605799228988" />
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606143417373" />
     <state x="293" y="183" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1598340732764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -575,10 +621,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="840" height="1034" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598347713395" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1606142492098">
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1607410615483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606142492098" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607410615483" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,88 +1,184 @@
 package com.mt.mythread.executor;
 
-import java.time.LocalDateTime;
-import java.util.Objects;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Vector;
 import java.util.concurrent.*;
 
 /**
  * author: liqm
  * 2019-10-16
  */
+
+/**
+ *  1. -Xms 初始化堆大小，-Xmx 最大堆大小
+ *
+ *
+ *
+ */
 public class ExecutorTest {
 
+    private static ThreadPoolExecutor executor = new ThreadPoolExecutor(2, 2, 100L, TimeUnit.MINUTES, new ArrayBlockingQueue<>(1000));
 
-    private static void executors() throws ExecutionException, InterruptedException {
+    public static void main(String[] args) throws InterruptedException, ExecutionException {
 
-        //        Executor executor = Executors.newFixedThreadPool(2);
-//
-//
-//        executor.execute(new Runnable() {
-//            @Override
-//            public void run() {
-//                System.out.println(Thread.currentThread().getName()+":"+1000);
-//            }
-//        });
+        Long st = System.currentTimeMillis();
+        Vector<Long> runTimeList = new Vector<>();
+        Vector<Long > wholeTimeList = new Vector<>();
+        List<Future<?>> futureList = new ArrayList<Future<?>>();
+        for (int i = 0; i < 50; i++) {
+            //Future<?> submit = executor.submit(new CPUTypeTest(runTimeList, wholeTimeList));
+            Future<?> submit = executor.submit(new IOTypeTest(runTimeList, wholeTimeList));
+            futureList.add(submit);
+        }
 
-        ExecutorService executorService = Executors.newFixedThreadPool(3);
+        for (int i = 0; i < futureList.size(); i++) {
+            futureList.get(i).get();
+        }
+        long wholeTime = 0;
+        for (int i = 0; i < wholeTimeList.size(); i++) {
+            wholeTime = wholeTimeList.get(i) + wholeTime;
+        }
 
-        Future<String> future = executorService.submit(new Callable<String>() {
-            @Override
-            public String call() throws Exception {
-                System.out.println(LocalDateTime.now()+":执行中。。。。");
-                Thread.sleep(2000L);
-                System.out.println(LocalDateTime.now()+":经过");
-                return "value";
-            }
-        });
+        long runTime = 0;
+        for (int i = 0; i < runTimeList.size(); i++) {
+            runTime = runTimeList.get(i) + runTime;
+        }
+        //System.out.println("平均每个线程整体花费时间： " +wholeTime/wholeTimeList.size());
+        //System.out.println("平均每个线程执行花费时间： " +runTime/runTimeList.size());
 
-        future.get();
+        System.out.println("耗时:" + (System.currentTimeMillis() - st));
+        executor.shutdown();
+
 
     }
 
 
-    private static void completionService() throws InterruptedException, ExecutionException {
+    static class CPUTypeTest implements Runnable {
 
-        CountDownLatch countDownLatch = new CountDownLatch(2);
+        //整体执行时间，包括在队列中等待的时间
+        List<Long> wholeTimeList;
+        //真正执行时间
+        List<Long> runTimeList;
 
-        ExecutorService executor = Executors.newFixedThreadPool(2);
+        private long initStartTime = 0;
 
-        CompletionService completionService = new ExecutorCompletionService(executor);
+        /**
+         * 构造函数
+         * @param runTimeList
+         * @param wholeTimeList
+         */
+        public CPUTypeTest(List<Long> runTimeList, List<Long> wholeTimeList) {
+            initStartTime = System.currentTimeMillis();
+            this.runTimeList = runTimeList;
+            this.wholeTimeList = wholeTimeList;
+        }
 
-        Future<String> submit = completionService.submit(() -> {
-            try {
-                return Thread.currentThread().getName() + ":completionService task1";
-            } finally {
-                countDownLatch.countDown();
+        /**
+         * 判断素数
+         * @param number
+         * @return
+         */
+        public boolean isPrime(final int number) {
+            if (number <= 1)
+                return false;
+            for (int i = 2; i <= Math.sqrt(number); i++) {
+                if (number % i == 0)
+                    return false;
             }
-        });
+            return true;
+        }
 
-        String s = submit.get();
-
-        completionService.submit(()->{
-            try {
-                return Thread.currentThread().getName() + ":completionService task2";
-            }finally {
-                countDownLatch.countDown();
+        /**
+         * 計算素数
+         * @return
+         */
+        public int countPrimes(final int lower, final int upper) {
+            int total = 0;
+            for (int i = lower; i <= upper; i++) {
+                if (isPrime(i))
+                    total++;
             }
-        });
+            return total;
+        }
 
-        countDownLatch.await();
+        public void run() {
+            long start = System.currentTimeMillis();
+            countPrimes(1, 1_000_000);
+            long end = System.currentTimeMillis();
 
-        for (int i = 0; i < 2; i++) {
-            Future<String> future = completionService.take();
-            if(!Objects.isNull(future))
-                System.out.println(future.get());
+            long wholeTime = end - initStartTime;
+            long runTime = end - start;
+
+            //wholeTimeList.add(wholeTime);
+            //runTimeList.add(runTime);
+            System.out.println("" + runTime);
+//            System.out.println("平均每个线程整体花费时间： " +wholeTime/wholeTimeList.size());
         }
 
     }
 
-    public static void main(String[] args) throws ExecutionException, InterruptedException {
 
-        completionService();
+     static class IOTypeTest implements Runnable {
+
+        //整体执行时间，包括在队列中等待的时间
+        Vector<Long> wholeTimeList;
+        //真正执行时间
+        Vector<Long> runTimeList;
+
+        private long initStartTime = 0;
+
+        /**
+         * 构造函数
+         * @param runTimeList
+         * @param wholeTimeList
+         */
+        public IOTypeTest(Vector<Long> runTimeList, Vector<Long> wholeTimeList) {
+            initStartTime = System.currentTimeMillis();
+            this.runTimeList = runTimeList;
+            this.wholeTimeList = wholeTimeList;
+        }
+
+        /**
+         *IO操作
+         * @return
+         * @throws IOException
+         */
+        public void readAndWrite() throws IOException {
+            File sourceFile = new File("D:/test.txt");
+            //创建输入流
+            BufferedReader input = new BufferedReader(new FileReader(sourceFile));
+            //读取源文件,写入到新的文件
+            String line = null;
+            while((line = input.readLine()) != null){
+                //System.out.println(line);
+            }
+            //关闭输入输出流
+            input.close();
+        }
+
+        public void run() {
+            long start = System.currentTimeMillis();
+            try {
+                readAndWrite();
+            } catch (IOException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+            long end = System.currentTimeMillis();
+
+
+            long wholeTime = end - initStartTime;
+            long runTime = end - start;
+//            wholeTimeList.add(wholeTime);
+//            runTimeList.add(runTime);
+            System.out.println("" + runTime);
+            //System.out.println("单个线程花费时间：" + (end - start));
+        }
     }
-
-
-
-
 
 }

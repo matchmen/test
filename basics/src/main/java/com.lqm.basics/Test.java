@@ -9,16 +9,9 @@ import java.util.List;
  */
 public class Test {
 
-
     public static void main(String[] args) {
-        List<String> a = new ArrayList<>();
-        List<String> b = a;
-        a = new ArrayList<>();
-        a.add("ss");
-        //
 
-        System.out.println(b.get(0));
-
+        System.out.println(2 & 2);
 
     }
 }

@@ -11,24 +11,20 @@ public class MyThreadLocal extends Thread{
 
     ThreadLocal<String> threadLocal = new ThreadLocal<>();
 
-    private String vaule;
+    private String value;
 
     public MyThreadLocal(String value) {
-        this.vaule = value;
+        this.value = value;
     }
 
     @Override
     public void run() {
 
-        threadLocal.set(vaule);
+        threadLocal.set(value);
         threadLocal.remove();
-
         System.out.println(threadLocal.get());
-
         Thread thread = new Thread(() -> System.out.println(threadLocal.get()));
-
         thread.start();
-
 
     }
 }

@@ -1,0 +1,68 @@
+1.介绍
+    顾名思义，线程的池子，存放线程的容器。它将创建的线程存储起来，用的时候直接使用，这样做主要是为了降低线程创建销毁资源消耗，省去创建线程的过程，提高响应速度。
+
+2.ThreadPoolExecutor
+2.1 ThreadPoolExecutor构造器
+    》 ThreadPoolExecutor(int corePoolSize,int maximumPoolSize,long keepAliveTime,TimeUnit unit,BlockingQueue<Runnable> workQueue)
+    》 ThreadPoolExecutor(int corePoolSize,int maximumPoolSize,long keepAliveTime,TimeUnit unit,BlockingQueue<Runnable> workQueue,
+                       ThreadFactory threadFactory)
+    》 ThreadPoolExecutor(int corePoolSize,int maximumPoolSize,long keepAliveTime,TimeUnit unit,BlockingQueue<Runnable> workQueue,
+                       RejectedExecutionHandler handler)
+    》 ThreadPoolExecutor(int corePoolSize,int maximumPoolSize,long keepAliveTime,TimeUnit unit,BlockingQueue<Runnable> workQueue,
+                       ThreadFactory threadFactory,RejectedExecutionHandler handler)
+四个构造器的前5个参数都是一样的：
+corePoolSize：核心线程数，指保留在池中的线​​程数，即使处于空闲状态，除非设置了{@code allowCoreThreadTimeOut：即允许核心线程过期销毁}
+maximumPoolSize：池中允许的最大线程数。
+keepAliveTime：当线程数大于核心线程数时，这时多余的空闲线程将在终止之前等待新任务的最长时间，过了这个时间没有收到新任务即销毁。
+unit：keepAliveTime参数的时间单位。
+workQueue：在执行任务之前用于保留任务的队列。 此队列将仅保存execute方法提交的Runnable任务。
+
+threadFactory：执行程序创建新线程时要使用的工厂。默认DefaultThreadFactory。
+handler：任务拒绝策略，因达到线程界限和队列容量而被阻止执行时使用的处理程序。常用的拒绝策略有：
+    》CallerRunsPolicy：它直接在execute方法的调用线程中运行拒绝任务，除非执行器已关闭，在这种情况下，该任务将被丢弃
+    》AbortPolicy：抛出RejectedExecutionException，默认。
+    》DiscardPolicy：直接丢掉任务，啥也不做。
+    》DiscardOldestPolicy：它丢弃最旧的未处理请求，然后重试execute。
+2.2 其他重要变量
+    》AtomicInteger ctl：线程执行器状态（启动中：小于0/已关闭：等于0）,先线程执行器执行shutdown方法前该参数都是负数，shutdown方法将其置为0。
+
+这里需要了解一下线程池的几个状态：
+RUNNING：运行中，值小于0，运行状态才能继续提交任务
+SHUTDOWN：关闭，值等于0，不能提交任务，已经提交的任务会被执行
+STOP：停止，值为：1 << COUNT_BITS，不能提交任务，尝试中止正在运行的任务，不再执行等待任务队列的任务。
+TIDYING：  值为：2 << COUNT_BITS
+TERMINATED：终止,值为：3 << COUNT_BITS
+其中COUNT_BITS=Integer.SIZE - 3
+
+
+3.任务执行过程
+从构造器代码看出，线程池执行器初始化时并没有创建任何线程(除非调用prestartAllCoreThreads或prestartCoreThreads方法预先创建线程)，是在任务执行时创建的。
+1）判断当前线程数是否小于核心线程数（corePoolSize），如果小于，则调用addWorker方法尝试创建新线程（核心线程）并执行当前方法；否则继续下一步。
+2）判断任务等待队列是否已满：
+   -->如果(任务等待队列未满)，则继续判断任务等待队列中是否已经存在该任务（存在即remove），任务等待队列中已经存在该任务,则执行拒绝策略；
+      否则将任务添加对任务队列队尾，并尝试创建非核心线程。
+   -->如果(任务等待队列已满)，则创建非核心线程，并将当前任务作为该线程的第一个任务。
+
+* 等待队列任务的执行过程：
+等待队列任务的执行主要体现在Worker上，Worker是ThreadPoolExecutor的一个内部类，任务的执行者，Worker封装thread（持有线程）和firstTask（要被执行的任务），
+提供了一个run方法，该方法会调用一个外部的runWorker方法，而runWorker方法内部是一个死循环，不断尝试检测firstTask是否为null或者能否从任务等待队列拿到任务（
+拿到的任务将会赋值给firstTask），任务执行完后再将firstTask设置为null，并再次循环获取任务。
+
+
+4.关闭线程池
+提供了两种关闭线程池的机制，分别对应shutdown和shutdownNow.
+4.1 shutdown
+启动有序关闭，在该关闭中执行先前提交的任务，但不接受任何新任务。将线程池状态置为SHUTDOWN
+4.2 shutdownNow
+尝试停止所有正在执行的任务，暂停正在等待的任务的处理，并返回正在等待执行的任务的列表。 从此方法返回后，将从任务队列中清空（删除）这些任务。
+此方法不等待主动执行的任务终止。 (尝试：不保证一定停止，底层使用Thread.interrupt),并将线程池状态置为STOP
+
+5.线程池大小设置
+线程池核心线程数的设置多少不仅仅依赖cpu核数和执行时间，还有线程执行的资源，
+
+
+
+
+
+
+

@@ -1,8 +1,9 @@
 package com.mt.designpattern.adapter;
 
+
 /**
  * 适配器模式
- * 定义：把一个类的接口转换成客户端所需要的林外一种接口，从而使原接口不匹配而无法一起工作的两个类能在一起工作。
+ * 定义：把一个类的接口转换成客户端所需要的另外一种接口，从而使原接口不匹配而无法一起工作的两个类能在一起工作。
  * 要素：
  *      目标：客户端使用的特定接口；
  *      客户：使用目标接口；
@@ -27,6 +28,9 @@ public class AdapterTest {
         ReaderXml readerXml = new ReaderXml();
         XmlReader xmlReader1 = new Adapter1(readerXml);
         xmlReader1.xmlReader();
+
+        StringBuilder sb = new StringBuilder();
+        sb.append("");
 
     }
 
