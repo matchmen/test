@@ -1,5 +1,10 @@
 package com.lqm.basics;
 
+import com.alibaba.fastjson.JSON;
+import jdk.nashorn.internal.parser.JSONParser;
+import lombok.Data;
+import lombok.ToString;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,7 +16,18 @@ public class Test {
 
     public static void main(String[] args) {
 
-        System.out.println(2 & 2);
+        String str = "{\"value\": 12345678901234567890}";
 
+        System.out.println(Long.MAX_VALUE);
+        System.out.println("12345678901234567890");
+
+        System.out.println(JSON.parseObject(str, MyObject.class));
+        System.out.println(JSON.toJSONString(JSON.parseObject(str, MyObject.class)));
+    }
+
+    @ToString
+    @Data
+    static class MyObject {
+        private Long value;
     }
 }
